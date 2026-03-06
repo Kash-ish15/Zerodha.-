@@ -1,0 +1,23 @@
+.o{
+    background-color: rgb(245, 245, 248);
+}
+.coll1{
+    margin-left:90px;
+}
+.ff{
+    font-size: small;
+    font-color: black ;
+}
+.icons{
+    color:rgb(111, 108, 108);
+}
+.list{
+    color:rgb(113, 110, 110);
+    list-style-type:none;
+    font-size: small;
+    margin-right: 20px;
+}
+#foot a{
+    text-decoration: none;
+    color: rgb(155, 147, 147);
+}

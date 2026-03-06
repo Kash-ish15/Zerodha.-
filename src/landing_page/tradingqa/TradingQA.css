@@ -1,0 +1,52 @@
+.trading-qa-container {
+    min-height: 100vh;
+    padding: 20px 0;
+    background-color: #f8f9fa;
+}
+
+.trading-qa-container .card {
+    border: none;
+    border-radius: 8px;
+}
+
+.trading-qa-container .question-item {
+    background-color: #ffffff;
+    transition: transform 0.2s;
+}
+
+.trading-qa-container .question-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.trading-qa-container .form-control:focus {
+    border-color: #0464f5ff;
+    box-shadow: 0 0 0 0.2rem rgba(4, 100, 255, 0.25);
+}
+
+.trading-qa-container .btn-primary {
+    background-color: #0464f5ff;
+    border-color: #0464f5ff;
+}
+
+.trading-qa-container .btn-primary:hover {
+    background-color: #0353d4;
+    border-color: #0353d4;
+}
+
+.trading-qa-container .accordion-button {
+    background-color: #ffffff;
+    color: #333;
+}
+
+.trading-qa-container .accordion-button:not(.collapsed) {
+    background-color: #f8f9fa;
+    color: #0464f5ff;
+}
+
+.trading-qa-container .accordion-button:focus {
+    box-shadow: none;
+    border-color: #0464f5ff;
+}
+
+
